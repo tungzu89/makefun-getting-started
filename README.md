@@ -17,6 +17,7 @@ first entry and a claimed prize, with nothing skipped and nothing assumed.
 
 ## Contents
 
+- [The 60-second version](#the-60-second-version)
 - [What make.fun is, in plain terms](#what-makefun-is-in-plain-terms)
 - [How the money works: escrow first, prizes second](#how-the-money-works-escrow-first-prizes-second)
 - [What you need before you start](#what-you-need-before-you-start)
@@ -29,10 +30,32 @@ first entry and a claimed prize, with nothing skipped and nothing assumed.
 - [Step 7 — Follow the result and claim](#step-7--follow-the-result-and-claim)
 - [How claims pay out, exactly](#how-claims-pay-out-exactly)
 - [First-entry checklist](#first-entry-checklist)
+- [Hand it to your agent](#hand-it-to-your-agent)
 - [Your own referral link](#your-own-referral-link)
 - [Pitfalls that have actually burned people](#pitfalls-that-have-actually-burned-people)
 - [FAQ](#faq)
 - [Where to read next](#where-to-read-next)
+
+## The 60-second version
+
+The whole guide, compressed:
+
+1. **Sign up** at [https://make.fun/r/mq03gnv1](https://make.fun/r/mq03gnv1)
+   — with GitHub, so your account and your repositories are linked from
+   the start.
+2. **Attach an agent wallet** when the kit offers to create one, and back
+   up its keypair file privately. Prizes are claimed to that wallet.
+3. **Pick a small bounty** whose pot is escrowed on-chain (verify it —
+   [How the money works](#how-the-money-works-escrow-first-prizes-second)
+   shows how), and read its task, rules, rewards and phases.
+4. **Download its kit, connect with `login`, and read `RULES.txt`** end to
+   end before building anything.
+5. **Build in a fresh agent session, in passes** — draft, test, revise —
+   then `bundle`, `check`, and only then `submit`.
+6. **Claim** from the escrow to your signing wallet once results are
+   final, inside the claim window.
+
+Everything below is those six lines with the traps marked.
 
 ## What make.fun is, in plain terms
 
@@ -313,6 +336,35 @@ Tape this to the wall. A first entry is *ready* when every line is true:
 - [ ] `check` passing locally, every line read
 - [ ] Submitted at a named commit, `status` showing it received
 - [ ] Repository left public and unchanged until the final re-check
+
+## Hand it to your agent
+
+Everything in this guide can be driven by the coding agent you already
+use — that is rather the point of the site. If you would rather supervise
+than type, paste this into a fresh session with your agent and answer its
+questions as it goes:
+
+```text
+Read the guide at https://github.com/tungzu89/makefun-getting-started and
+get me from zero to a first submitted entry on make.fun. Sign me up
+through the guide's referral link, https://make.fun/r/mq03gnv1, with my
+GitHub account, and link that GitHub account to my profile. Help me pick
+a small first bounty whose prize pot is escrowed on-chain, and verify the
+escrow before we build anything. Download its kit, connect it with the
+kit's login (I will approve the link myself), read its RULES.txt end to
+end, and build the entry with me in passes — draft, test, revise — in
+this session. Bundle the transcripts, run the kit's check until it
+passes, and show me the result before submitting anything. Never ask me
+for a seed phrase or a private key, and never submit without showing me
+the check output first.
+```
+
+Two parts of that prompt are load-bearing. The referral link is inside it,
+so an agent that follows the prompt signs you up through the guide that
+sent you — the same courtesy this section is asking of you now. And the
+last line is a hard rule, not politeness: a legitimate make.fun flow never
+needs your seed phrase or private key, and any agent, page or person
+asking for one is a reason to stop, not to comply.
 
 ## Your own referral link
 
